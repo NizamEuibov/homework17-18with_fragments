@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#252525"
+    tools:context=".Fraqments.Fraqments.NoteApp.CreateFragment">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.IconButton.Filled"
+        android:id="@+id/savebutton"
+        app:iconSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/save_as_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#409A9A9A"
+
+
+
+       />
+
+
+    <EditText
+        android:id="@+id/editcontent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textSize="48sp"
+        android:textColorHint="#9a9a9a"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backbutton1"
+        app:layout_constraintBottom_toTopOf="@+id/edittitle"
+        />
+
+    <EditText
+        android:id="@+id/edittitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type something..."
+        android:textColor="@color/white"
+        android:textSize="23sp"
+       android:textColorHint="#9a9a9a"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editcontent"
+
+
+        />
+
+
+
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.IconButton.Filled"
+        android:id="@+id/backbutton1"
+        app:iconSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:icon="@drawable/back_button_24"
+        android:background="#409A9A9A"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

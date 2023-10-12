@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/homework18cardview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#f9f9f9"
+       >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="25dp"
+            android:paddingVertical="16dp">
+
+            <TextView
+                android:id="@+id/cardview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="akgouigpi"
+                android:textColor="#141416"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/numbercardview"
+                android:layout_marginBottom="24dp"/>
+
+
+            <TextView
+                android:id="@+id/datecardview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginBottom="5dp"
+                android:text="akgouigpi"
+                android:textColor="#777e90"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@id/cardview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cardview"
+                />
+
+            <TextView
+                android:id="@+id/numbercardview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tracking number:"
+                android:textColor="#777e90"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@id/quantitycardview"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cardview"
+
+                />
+
+            <TextView
+                android:id="@+id/numbercardview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  akgouigpi"
+                android:textColor="#141416"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/numbercardview"
+                app:layout_constraintStart_toEndOf="@id/numbercardview"
+                app:layout_constraintTop_toTopOf="@id/numbercardview" />
+
+            <TextView
+                android:id="@+id/quantitycardview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quanlity:"
+                android:textColor="#777e90"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/numbercardview"
+                app:layout_constraintBottom_toTopOf="@id/homework18button"
+                android:layout_marginTop="24dp"/>
+
+            <TextView
+                android:id="@+id/quantitycardview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  akgouigpi"
+                android:textColor="#141416"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/quantitycardview"
+                app:layout_constraintStart_toEndOf="@+id/quantitycardview"
+                app:layout_constraintTop_toTopOf="@id/quantitycardview" />
+
+            <TextView
+                android:id="@+id/pricecardview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="65dp"
+                android:text="Subtotal:"
+                android:textColor="#777e90"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@id/quantitycardview1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/numbercardview1" />
+
+            <TextView
+                android:id="@+id/pricecardview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="akgou"
+                android:textColor="#141416"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintTop_toTopOf="@id/pricecardview"
+                app:layout_constraintBottom_toBottomOf="@id/pricecardview"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/pricecardview" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/homework18button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00F9F9F9"
+                android:text="uguoghj"
+                android:textColor="#cf6612"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/quantitycardview"
+                android:layout_marginTop="12dp"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/homework18button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#00F9F9F9"
+                android:text="Details"
+                android:textColor="#000000"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/pricecardview1"
+                app:strokeWidth="1dp"
+                android:layout_marginTop="19dp"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
